@@ -1,0 +1,363 @@
+@font-face {
+  font-family: 'TT Lakes';
+  font-style: normal;
+  font-weight: 500;
+  src: local('TT Lakes'), url('/1.4-NEW/fonts/TTLakes-Bold.woff'),
+    url('/1.4-NEW//fonts/TTLakes-Medium.ttf'),
+    url('/1.4-NEW/fonts/TTLakes-Medium.eot');
+}
+@font-face {
+  font-family: 'TT Lakes';
+  font-style: normal;
+  font-weight: 700;
+  src: local('TT Lakes'), url('/1.4-NEW/fonts/TTLakes-Bold.woff'),
+    url('/1.4-NEW/fonts/TTLakes-Bold.ttf'),
+    url('/1.4-NEW/fonts/TTLakes-Bold.eot');
+}
+@font-face {
+  font-family: 'TT Lakes';
+  font-style: normal;
+  font-weight: 400;
+  src: local('TT Lakes'), url('/1.4-NEW/fonts/TTLakes-Regular.woff'),
+    url('/1.4-NEW/fonts/TTLakes-Regular.ttf'),
+    url('/1.4-NEW/fonts/TTLakes-Regular.eot');
+}
+
+.mobile-menu {
+  display: flex;
+  flex-direction: row;
+  width: 320px;
+  height: 1024px;
+  background: #ffffff;
+  box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02),
+    16px 0px 52px rgba(14, 24, 80, 0.2);
+  font-family: 'TT Lakes', 'Arial', sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 320px;
+  height: 535px;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+.lower-menu {
+  display: flex;
+  justify-content: flex-start;
+  z-index: 5;
+}
+.main {
+  width: 320px;
+  height: 455px;
+  background: #ffffff;
+}
+.swiper a,
+.contact__mail,
+.submenu__lang a {
+  text-decoration: none;
+  font-family: TT Lakes;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.20000000298023224px;
+  text-align: left;
+}
+.button {
+  border: none;
+}
+.button:hover {
+  filter: invert(75%);
+  transition: filter 0.5s ease;
+  cursor: pointer;
+}
+.menu__burger-x {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  left: 24px;
+  top: 23px;
+  border-radius: 20px;
+  background-image: url('/1.4-NEW/icon/burgerX.svg');
+}
+.menu__group {
+  position: absolute;
+  height: 51px;
+  width: 97px;
+  left: 80.725830078125px;
+  top: 18.72607421875px;
+}
+.menu__search {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  left: 256px;
+  top: 23px;
+  border-radius: 20px;
+  background-image: url('/1.4-NEW/icon/search.svg');
+}
+/* .menu__checkstatus {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  left: 264px;
+  top: 24px;
+  border-radius: 20px;
+  background-image: url('/1.4-NEW/icon/checkstatus.svg');
+} */
+.lower-menu__call {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  left: 24px;
+  top: 804px;
+  border-radius: 20px;
+  background-image: url('/1.4-NEW/icon/call.svg');
+}
+.lower-menu__chat {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  left: 80px;
+  top: 804px;
+  border-radius: 20px;
+  background-image: url('/1.4-NEW/icon/chat.svg');
+}
+.lower-menu__profile {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  left: 136px;
+  top: 804px;
+  border-radius: 20px;
+  background-image: url('/1.4-NEW/icon/profile.svg');
+}
+.main__title {
+  position: absolute;
+  height: 32px;
+  width: 4px;
+  left: 2px;
+  top: 116px;
+  border-radius: 2px;
+  background: #41f6d7;
+}
+
+.main-menu {
+  position: absolute;
+  height: 876px;
+  width: 222px;
+  left: 0px;
+  top: 116px;
+}
+.swiper {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.text__repair {
+  position: absolute;
+  height: 24px;
+  width: 120px;
+  left: 24px;
+  top: 4px;
+}
+.text__repair-link {
+  position: absolute;
+  height: 24px;
+  width: 120px;
+  left: 0px;
+  top: 0px;
+  color: #7e7e82;
+}
+.text__services {
+  position: absolute;
+  height: 24px;
+  width: 132px;
+  left: 24px;
+  top: 60px;
+}
+.text__services-link {
+  position: absolute;
+  height: 24px;
+  width: 132px;
+  left: 0px;
+  top: 0px;
+  color: #1b1c21;
+}
+.text__corporate {
+  position: absolute;
+  height: 24px;
+  width: 198px;
+  left: 24px;
+  top: 115px;
+}
+.text__corporate-link {
+  position: absolute;
+  height: 24px;
+  width: 198px;
+  left: 0px;
+  top: 1px;
+  color: #1b1c21;
+}
+.text__sellers {
+  position: absolute;
+  height: 24px;
+  width: 149px;
+  left: 24px;
+  top: 172px;
+}
+.text__sellers-link {
+  position: absolute;
+  height: 24px;
+  width: 149px;
+  left: 0px;
+  top: 0px;
+  color: #1b1c21;
+}
+.text__partners {
+  position: absolute;
+  height: 24px;
+  width: 85px;
+  left: 24px;
+  top: 228px;
+}
+.text__partners-link {
+  position: absolute;
+  height: 24px;
+  width: 85px;
+  left: 0px;
+  top: 0px;
+  color: #1b1c21;
+}
+.text__manufacturers {
+  position: absolute;
+  height: 24px;
+  width: 130px;
+  left: 24px;
+  top: 284px;
+}
+.text__manufacturers-link {
+  position: absolute;
+  height: 24px;
+  width: 130px;
+  left: 0px;
+  top: 0px;
+  color: #1b1c21;
+}
+.text__service-centres {
+  position: absolute;
+  height: 24px;
+  width: 188px;
+  left: 24px;
+  top: 340px;
+}
+.text__service-centres-link {
+  position: absolute;
+  height: 24px;
+  width: 188px;
+  left: 0px;
+  top: 0px;
+  color: #1b1c21;
+}
+.text__contacts {
+  position: absolute;
+  height: 24px;
+  width: 72px;
+  left: 24px;
+  top: 396px;
+}
+.text__contacts-link {
+  position: absolute;
+  height: 24px;
+  width: 72px;
+  left: 0px;
+  top: 0px;
+  color: #1b1c21;
+}
+.footer {
+  position: absolute;
+  width: 320px;
+  height: 140px;
+  top: 860px;
+  left: 0px;
+}
+.contact a,
+.submenu__lang a {
+  text-decoration: none;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.contact__mail {
+  position: absolute;
+  height: 24px;
+  width: 106px;
+  left: 24px;
+  top: 0px;
+
+  font-family: TT Lakes;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.20000000298023224px;
+  text-align: left;
+  color: #1b1c21;
+}
+
+.contact__tel {
+  position: absolute;
+  height: 32px;
+  width: 196px;
+  left: 24px;
+  top: 37px;
+
+  font-family: TT Lakes;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.6000000238418579px;
+  text-align: left;
+  color: #1b1c21;
+}
+.submenu__lang {
+  display: flex;
+  justify-content: flex-start;
+
+  position: absolute;
+  height: 24px;
+  width: 87px;
+  left: 1px;
+  top: 109px;
+
+  list-style-type: none;
+  color: #1b1c21;
+}
+.submenu__lang-ru {
+  position: absolute;
+  height: 24px;
+  width: 25px;
+  left: 24px;
+  top: 0px;
+  color: #7e7e82;
+}
+.submenu__lang-en {
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  left: 56px;
+  top: 0px;
+  color: #1b1c21;
+}
+.submenu__lang-ch {
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  left: 87px;
+  top: 0px;
+  color: #1b1c21;
+}
