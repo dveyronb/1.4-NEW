@@ -39,11 +39,11 @@
   width: 320px;
   height: 535px;
 }
-.menu {
+.header__menu {
   display: flex;
   justify-content: space-between;
 }
-.lower-menu {
+.header__lower-menu {
   display: flex;
   justify-content: flex-start;
   z-index: 5;
@@ -53,9 +53,9 @@
   height: 455px;
   background: #ffffff;
 }
-.swiper a,
-.contact__mail,
-.submenu__lang a {
+.main__menu-points a,
+.footer__submenu-contact-mail,
+.footer__submenu-lang a {
   text-decoration: none;
   font-family: TT Lakes;
   font-size: 16px;
@@ -72,7 +72,7 @@
   transition: filter 0.5s ease;
   cursor: pointer;
 }
-.menu__burger-x {
+.header__menu-burger-x {
   position: absolute;
   height: 40px;
   width: 40px;
@@ -81,14 +81,14 @@
   border-radius: 20px;
   background-image: url('/1.4-NEW/icon/burgerX.svg');
 }
-.menu__group {
+.header__menu-group {
   position: absolute;
   height: 51px;
   width: 97px;
   left: 80.725830078125px;
   top: 18.72607421875px;
 }
-.menu__search {
+.header__menu-search {
   position: absolute;
   height: 40px;
   width: 40px;
@@ -97,16 +97,7 @@
   border-radius: 20px;
   background-image: url('/1.4-NEW/icon/search.svg');
 }
-/* .menu__checkstatus {
-  position: absolute;
-  height: 40px;
-  width: 40px;
-  left: 264px;
-  top: 24px;
-  border-radius: 20px;
-  background-image: url('/1.4-NEW/icon/checkstatus.svg');
-} */
-.lower-menu__call {
+.header__lower-menu-call {
   position: absolute;
   height: 40px;
   width: 40px;
@@ -115,7 +106,7 @@
   border-radius: 20px;
   background-image: url('/1.4-NEW/icon/call.svg');
 }
-.lower-menu__chat {
+.header__lower-menu-chat {
   position: absolute;
   height: 40px;
   width: 40px;
@@ -124,7 +115,7 @@
   border-radius: 20px;
   background-image: url('/1.4-NEW/icon/chat.svg');
 }
-.lower-menu__profile {
+.header__lower-menu-profile {
   position: absolute;
   height: 40px;
   width: 40px;
@@ -142,28 +133,26 @@
   border-radius: 2px;
   background: #41f6d7;
 }
-
-.main-menu {
+.main__menu {
   position: absolute;
   height: 876px;
   width: 222px;
   left: 0px;
   top: 116px;
 }
-.swiper {
+.main__menu-points {
   display: flex;
   flex-direction: column;
   list-style-type: none;
 }
-
-.text__repair {
+.main__menu-points-text-repair {
   position: absolute;
   height: 24px;
   width: 120px;
   left: 24px;
   top: 4px;
 }
-.text__repair-link {
+.main__menu-points-text-repair-link {
   position: absolute;
   height: 24px;
   width: 120px;
@@ -171,14 +160,14 @@
   top: 0px;
   color: #7e7e82;
 }
-.text__services {
+.main__menu-points-text-services {
   position: absolute;
   height: 24px;
   width: 132px;
   left: 24px;
   top: 60px;
 }
-.text__services-link {
+.main__menu-points-text-services-link {
   position: absolute;
   height: 24px;
   width: 132px;
@@ -186,14 +175,14 @@
   top: 0px;
   color: #1b1c21;
 }
-.text__corporate {
+.main__menu-points-text-corporate {
   position: absolute;
   height: 24px;
   width: 198px;
   left: 24px;
   top: 115px;
 }
-.text__corporate-link {
+.main__menu-points-text-corporate-link {
   position: absolute;
   height: 24px;
   width: 198px;
@@ -201,14 +190,14 @@
   top: 1px;
   color: #1b1c21;
 }
-.text__sellers {
+.main__menu-points-text-sellers {
   position: absolute;
   height: 24px;
   width: 149px;
   left: 24px;
   top: 172px;
 }
-.text__sellers-link {
+.main__menu-points-text-sellers-link {
   position: absolute;
   height: 24px;
   width: 149px;
@@ -216,14 +205,14 @@
   top: 0px;
   color: #1b1c21;
 }
-.text__partners {
+.main__menu-points-text-partners {
   position: absolute;
   height: 24px;
   width: 85px;
   left: 24px;
   top: 228px;
 }
-.text__partners-link {
+.main__menu-points-text-partners-link {
   position: absolute;
   height: 24px;
   width: 85px;
@@ -231,14 +220,14 @@
   top: 0px;
   color: #1b1c21;
 }
-.text__manufacturers {
+.main__menu-points-text-manufacturers {
   position: absolute;
   height: 24px;
   width: 130px;
   left: 24px;
   top: 284px;
 }
-.text__manufacturers-link {
+.main__menu-points-text-manufacturers-link {
   position: absolute;
   height: 24px;
   width: 130px;
@@ -246,14 +235,14 @@
   top: 0px;
   color: #1b1c21;
 }
-.text__service-centres {
+.main__menu-points-text-service-centres {
   position: absolute;
   height: 24px;
   width: 188px;
   left: 24px;
   top: 340px;
 }
-.text__service-centres-link {
+.main__menu-points-text-service-centres-link {
   position: absolute;
   height: 24px;
   width: 188px;
@@ -261,14 +250,14 @@
   top: 0px;
   color: #1b1c21;
 }
-.text__contacts {
+.main__menu-points-text-contacts {
   position: absolute;
   height: 24px;
   width: 72px;
   left: 24px;
   top: 396px;
 }
-.text__contacts-link {
+.main__menu-points-text-contacts-link {
   position: absolute;
   height: 24px;
   width: 72px;
@@ -283,23 +272,21 @@
   top: 860px;
   left: 0px;
 }
-.contact a,
-.submenu__lang a {
+.footer__submenu-contact a,
+.footer__submenu__lang a {
   text-decoration: none;
 }
-.contact {
+.footer__submenu-contact {
   display: flex;
   flex-direction: column;
   list-style-type: none;
 }
-
-.contact__mail {
+.footer__submenu-contact-mail {
   position: absolute;
   height: 24px;
   width: 106px;
   left: 24px;
   top: 0px;
-
   font-family: TT Lakes;
   font-size: 16px;
   font-weight: 500;
@@ -308,14 +295,12 @@
   text-align: left;
   color: #1b1c21;
 }
-
-.contact__tel {
+.footer__submenu-contact-tel {
   position: absolute;
   height: 32px;
   width: 196px;
   left: 24px;
   top: 37px;
-
   font-family: TT Lakes;
   font-size: 24px;
   font-weight: 700;
@@ -324,20 +309,18 @@
   text-align: left;
   color: #1b1c21;
 }
-.submenu__lang {
+.footer__submenu-lang {
   display: flex;
   justify-content: flex-start;
-
   position: absolute;
   height: 24px;
   width: 87px;
   left: 1px;
   top: 109px;
-
   list-style-type: none;
   color: #1b1c21;
 }
-.submenu__lang-ru {
+.footer__submenu-lang-ru {
   position: absolute;
   height: 24px;
   width: 25px;
@@ -345,7 +328,7 @@
   top: 0px;
   color: #7e7e82;
 }
-.submenu__lang-en {
+.footer__submenu-lang-en {
   position: absolute;
   height: 24px;
   width: 24px;
@@ -353,7 +336,7 @@
   top: 0px;
   color: #1b1c21;
 }
-.submenu__lang-ch {
+.footer__submenu-lang-ch {
   position: absolute;
   height: 24px;
   width: 24px;
