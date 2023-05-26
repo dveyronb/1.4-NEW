@@ -200,3 +200,19 @@
   text-align: left;
   color: #1b1c21;
 }
+.menu__burger-x:hover,
+.menu__call:hover,
+.menu__chat:hover,
+.menu__profile:hover,
+.menu__search:hover {
+  filter: invert(75%);
+  animation: rotate 1.1s;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
