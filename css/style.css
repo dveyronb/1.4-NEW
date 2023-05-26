@@ -24,7 +24,7 @@
 }
 
 .mobile-menu {
-    display: flex;
+  display: flex;
   flex-direction: column;
   width: 320px;
   background: #ffffff;
@@ -32,11 +32,13 @@
     16px 0px 52px rgba(14, 24, 80, 0.2);
   font-family: 'TT Lakes', 'Arial', sans-serif;
   margin: 0;
+}
+.scroll {
   position: fixed;
-  overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
-  top: 0;
-  bottom: 0;
+    width: 320px;
+    overflow-y: scroll;
+    top: 0;
+    bottom: 0;
 }
 /* .mobile-menu {
   display: flex;
