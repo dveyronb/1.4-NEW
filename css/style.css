@@ -160,8 +160,6 @@
   flex-direction: column;
   gap: 12px;
 }
-.footer__submenu-contact-mail {
-}
 .footer__submenu-contact-tel {
   font-family: 'TT Lakes', 'Arial', sans-serif;
   font-size: 24px;
