@@ -177,7 +177,16 @@
   gap: 8px;
   margin-top: 24px;
 }
-
+.footer__submenu-lang-ru {
+  font-family: 'TT Lakes', 'Arial', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  text-align: left;
+  color: #7e7e82;
+  text-decoration: none;
+}
 .section__menu-points-link,
 .footer__submenu-contact-mail,
 .footer__submenu-lang-link {
