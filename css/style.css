@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: 'TT Lakes';
   font-style: normal;
   font-weight: 500;
@@ -21,7 +21,7 @@
   src: local('TT Lakes'), url('/1.4-NEW/fonts/TTLakes-Regular.woff'),
     url('/1.4-NEW/fonts/TTLakes-Regular.ttf'),
     url('/1.4-NEW/fonts/TTLakes-Regular.eot');
-}
+} */
 
 .mobile-menu {
   display: flex;
